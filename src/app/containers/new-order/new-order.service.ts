@@ -8,14 +8,14 @@ export class PizzaService {
     constructor(private http: HttpClient) {}
 
     getPizzaDetails() {
-       return this.http.get(`https://KeyForthrightDegrees--five-nine.repl.co/api/pizzaDetails`);
+       return this.http.get(`https://pizza-order--bobswagger.repl.co/api/pizzaDetails`);
     }
 
     updateSummary(items) {
-        return this.http.post('https://KeyForthrightDegrees--five-nine.repl.co/api/pizzaSummary', items);
+        return this.http.post('https://pizza-order--bobswagger.repl.co/api/pizzaSummary', items);
     }
 
     submitOrder(items) {
-        return this.http.post('https://KeyForthrightDegrees--five-nine.repl.co/api/submitOrder', items);
+        return this.http.post('https://pizza-order--bobswagger.repl.co/api/submitOrder', items);
     }
 }
