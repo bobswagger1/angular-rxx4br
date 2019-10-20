@@ -18,7 +18,6 @@ import { StatusOrdersComponent } from './components/status-orders/status-orders.
 import { HttpClientModule } from '@angular/common/http';
 import { StatusService } from './containers/status/status.service';
 import { DashboardComponent } from './containers/dashboard/dashboard.component';
-// Import ng-circle-progress
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { DashboardService } from './containers/dashboard/dashboard.service';
 

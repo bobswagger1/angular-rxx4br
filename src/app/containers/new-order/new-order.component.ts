@@ -1,4 +1,4 @@
-import { Prices } from 'src/app/models/PizzaInfo';
+import { Prices } from '../../models/PizzaInfo';
 import { PizzaInfo, BasePizzaInfo } from './../../models/PizzaInfo';
 import { PizzaService } from './new-order.service';
 import { Component, OnInit } from '@angular/core';
