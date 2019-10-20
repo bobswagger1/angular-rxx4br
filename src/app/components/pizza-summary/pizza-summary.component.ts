@@ -1,6 +1,6 @@
 import { FormArray } from '@angular/forms';
 import { Component, OnInit, Input } from '@angular/core';
-import { Prices } from 'src/app/models/PizzaInfo';
+import { Prices } from '../../models/PizzaInfo';
 
 @Component({
   selector: 'app-pizza-summary',

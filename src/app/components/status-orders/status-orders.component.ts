@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
-import { Orders } from 'src/app/models/Orders';
+import { Orders } from '../../models/Orders';
 import _ from 'lodash';
 
 @Component({
